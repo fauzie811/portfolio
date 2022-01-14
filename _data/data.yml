@@ -1,0 +1,165 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Fauzur Rofi
+    tagline: Web and Mobile Developer
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: fauzie91@outlook.com
+    phone: +62 856 9376 9657
+    # website: blog.webjeda.com #do not add http://
+    facebook: fauzie.rofi
+    linkedin: fauzie811
+    # xing: alandoe
+    github: fauzie811
+    telegram: # add your nickname without '@' sign
+    gitlab:
+    bitbucket:
+    # twitter: '@webjeda'
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+    # pdf: http://www.africau.edu/images/default/sample.pdf
+
+    # languages:
+    #   - idiom: English
+    #     level: Native
+
+    #   - idiom: French
+    #     level: Professional
+
+    #   - idiom: Spanish
+    #     level: Professional
+
+    # interests:
+    #   - item: Climbing
+    #     link:
+
+    #   - item: Snowboarding
+    #     link:
+
+    #   - item: Cooking
+    #     link:
+
+career-profile:
+    title: Profil
+    summary: |
+      Programmer web dengan pengalaman kurang lebih 9 tahun, spesialisasi di WordPress dan Laravel. Juga programmer mobile dengan pengalaman kurang lebih 7 tahun, spesialisasi di Android (Java & Kotlin) dan Flutter, pernah juga menggunakan React Native.
+# education:
+#     - degree: MSc in Computer Science
+#       university: University of London
+#       time: 2011 - 2012
+#       details: |
+#         Describe your study here lorem ipsum dolor sit amet, consectetuer
+#         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+#         sociis natoque penatibus et magnis dis parturient montes, nascetur
+#         ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+#         pretium quis, sem.
+#           - Bullet point
+#           - Bullet point
+experiences:
+    - role: Programmer (Full time)
+      time: Agustus 2021 - Sekarang
+      company: PonPes Darul Fithrah, Sukoharjo
+      details: |
+        Mengerjakan pembuatan dan _maintenance_ aplikasi sistem informasi untuk Pondok Pesantren.
+    - role: Programmer Web dan Mobile (Freelance)
+      time: September 2012 - Sekarang
+      company: MahirCom
+      details: |
+        Menerima pesanan pembuatan website ataupun aplikasi mobile (Android).
+    - role: Programmer Web
+      time: April 2012 - September 2012
+      company: PT. Bisnis Optimasi Indonesia, Bekasi
+      details: |
+        Menerima pesanan pembuatan website dan optimasi SEO.
+projects:
+    title: Portofolio
+    # intro: >
+    #   You can list your side projects or open source libraries in this
+    #   section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    #   Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Qur'an Tadabbur Digital
+        link: "https://play.google.com/store/apps/details?id=com.mahircom.mushaftadabbur"
+        tagline: "Aplikasi Al-Qur'an untuk Android. Menggunakan bahasa Java."
+
+      - title: Belajar Baca Qur'an
+        link: "https://play.google.com/store/apps/details?id=com.mahircom.bbquran"
+        tagline: "Aplikasi belajar membaca al-Qur'an untuk Android. Menggunakan bahasa Java."
+
+      - title: Al-Qur'an Tarjamah Tafsiriyah
+        link: "https://play.google.com/store/apps/details?id=com.annabawy.qtt"
+        tagline: "Aplikasi Al-Qur'an untuk Android. Menggunakan bahasa Java dan Kotlin."
+
+      - title: Arrahmah.com
+        link: "https://play.google.com/store/apps/details?id=com.arrahmah.v2021"
+        tagline: "Aplikasi berita untuk Android. Menggunakan teknologi Flutter dan bahasa Dart."
+
+      - title: Mihrab Qolbi
+        link: "https://play.google.com/store/apps/details?id=com.mahircom.mihrabqolbi"
+        tagline: "Aplikasi untuk travel umrah dan haji. Menggunakan teknologi React Native."
+
+      - title: Darul Fithrah
+        link: "https://app.darulfithrah.com"
+        tagline: "Aplikasi sistem informasi pondok pesantren untuk manajemen dan juga wali santri. Menggunakan framework Laravel."
+
+      - title: MahirCom
+        link: "https://mahircom.id/"
+        tagline: "Portofolio untuk website-website yang dibuat dengan WordPress."
+
+# publications:
+#     title: Publications
+#     intro: |
+#       You can list your publications in this section. Lorem ipsum dolor sit
+#       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#       bibendum fringilla a eu lectus.
+#     papers:
+#       - title: The Art of Computer Programming
+#         link: "#"
+#         authors: Donald E. Knuth
+#         conference: Addison-Wesley, 1968
+
+#       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#         link: "#"
+#         authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#         conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+#       - title: A syntax directed compiler for Algol 60
+#         link: "#"
+#         authors: Edgar T. Irons
+#         conference: "Comm. ACM 4 (1961), 51–55"
+
+skills:
+    title: Keahlian
+    toolset:
+      - name: HTML, CSS, Javascript
+        level: 95%
+
+      - name: PHP & MySQL
+        level: 90%
+
+      - name: WordPress
+        level: 90%
+
+      - name: Laravel
+        level: 85%
+
+      - name: Android (Java & Kotlin)
+        level: 85%
+
+      - name: Flutter
+        level: 70%
+
+      - name: React Native
+        level: 50%
+
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
